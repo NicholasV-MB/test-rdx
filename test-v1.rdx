@@ -119,6 +119,7 @@
 			</PAR>
 			<PAR Name="MsgText">
 				<EXP><![CDATA[$C$aggiunta locale 2]]></EXP>
+
 			</PAR>
 			<PAR Name="MsgStyle">
 				<EXP><![CDATA[$C$-1]]></EXP>
