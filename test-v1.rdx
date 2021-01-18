@@ -99,6 +99,21 @@
 					<EXP><![CDATA[$V$]]></EXP>
 				</PAR>
 			</ACTION_CALL>
+			<ACTION_CALL Id="RDK:22" Name="RDEngineering_MsgBox" DesignTimeRemark="{Text}">
+				<PAR Name="RDLibraryName">
+					<EXP><![CDATA[$C$RDEngineering_UI]]></EXP>
+				</PAR>
+				<PAR Name="MsgText">
+					<EXP><![CDATA[$C$messagggio aggiunto da remoto]]></EXP>
+				</PAR>
+				<PAR Name="MsgStyle" />
+				<PAR Name="BtnLayout" />
+				<PAR Name="MsgCaption" />
+				<PAR Name="BaloonType" />
+				<PAR Name="BtnPressed">
+					<EXP><![CDATA[$V$]]></EXP>
+				</PAR>
+			</ACTION_CALL>
 		</GROUP>
 	</GROUP>
 	<EXTERNAL_DATA>
