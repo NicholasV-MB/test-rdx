@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PROCESS Id="RDK:1" Name="test-v1" Expanded="True">
-	<PROCESSPROPERTY CrUser="nicholas.vittor [LAPT-IT07]" CrDate="2020-11-03T16:29:27" ModUser="nicholas.vittor [LAPT-IT07]" ModDate="2021-01-18T10:27:25" LanguageVersion="2011.1.1.0" />
+
+	<PROCESSPROPERTY CrUser="nicholas.vittor [LAPT-IT07]" CrDate="2020-11-03T16:29:27" ModUser="nicholas.vittor [LAPT-IT07]" ModDate="2020-11-04T08:31:17" LanguageVersion="2011.1.1.0" />
 	<GROUP Id="RDK:2" Name="Declarations" SubType="Declarations" Expanded="True">
 		<GROUP Id="RDK:5" Name="Types" SubType="TypeSet" IncludeDate="0" Expanded="True" />
 		<GROUP Id="RDK:6" Name="Parameters" SubType="ParameterDefs" Expanded="True" />
@@ -47,7 +48,7 @@
 				<EXP><![CDATA[$V$]]></EXP>
 			</PAR>
 		</ACTION_CALL>
-		<GROUP Id="RDK:14" Name="group test" SubType="Generic" Expanded="True">
+		<GROUP Id="RDK:14" Name="group test" SubType="Generic">
 			<ACTION_CALL Id="RDK:16" Name="RDEngineering_MsgBox" DesignTimeRemark="{Text}">
 				<PAR Name="RDLibraryName">
 					<EXP><![CDATA[$C$RDEngineering_UI]]></EXP>
@@ -106,25 +107,6 @@
 				</PAR>
 			</ACTION_CALL>
 		</GROUP>
-		<ACTION_CALL Id="RDK:21" Name="RDEngineering_MsgBox" DesignTimeRemark="{Text}">
-			<PAR Name="RDLibraryName">
-				<EXP><![CDATA[$C$RDEngineering_UI]]></EXP>
-			</PAR>
-			<PAR Name="MsgText">
-				<EXP><![CDATA[$C$Messsaggio dopo  il gruppo]]></EXP>
-			</PAR>
-			<PAR Name="MsgStyle">
-				<EXP><![CDATA[$C$-1]]></EXP>
-			</PAR>
-			<PAR Name="BtnLayout">
-				<EXP><![CDATA[$C$-1]]></EXP>
-			</PAR>
-			<PAR Name="MsgCaption" />
-			<PAR Name="BaloonType" />
-			<PAR Name="BtnPressed">
-				<EXP><![CDATA[$V$]]></EXP>
-			</PAR>
-		</ACTION_CALL>
 	</GROUP>
 	<EXTERNAL_DATA>
 		<PROFILES_DATA />
