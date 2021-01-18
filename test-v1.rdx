@@ -118,7 +118,7 @@
 				<EXP><![CDATA[$C$RDEngineering_UI]]></EXP>
 			</PAR>
 			<PAR Name="MsgText">
-				<EXP><![CDATA[$C$aggiunta locale]]></EXP>
+				<EXP><![CDATA[$C$aggiunta locale 1]]></EXP>
 			</PAR>
 			<PAR Name="MsgStyle">
 				<EXP><![CDATA[$C$-1]]></EXP>
