@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PROCESS Id="RDK:1" Name="test-v1" Expanded="True">
-	<PROCESSPROPERTY CrUser="nicholas.vittor [LAPT-IT07]" CrDate="2020-11-03T16:29:27" ModUser="nicholas.vittor [LAPT-IT07]" ModDate="2021-01-18T09:00:48" LanguageVersion="2011.1.1.0" />
+	<PROCESSPROPERTY CrUser="nicholas.vittor [LAPT-IT07]" CrDate="2020-11-03T16:29:27" ModUser="nicholas.vittor [LAPT-IT07]" ModDate="2021-01-18T10:27:25" LanguageVersion="2011.1.1.0" />
 	<GROUP Id="RDK:2" Name="Declarations" SubType="Declarations" Expanded="True">
 		<GROUP Id="RDK:5" Name="Types" SubType="TypeSet" IncludeDate="0" Expanded="True" />
 		<GROUP Id="RDK:6" Name="Parameters" SubType="ParameterDefs" Expanded="True" />
@@ -72,10 +72,14 @@
 					<EXP><![CDATA[$C$RDEngineering_UI]]></EXP>
 				</PAR>
 				<PAR Name="MsgText">
-					<EXP><![CDATA[$C$secondo messaggio del gruppo]]></EXP>
+					<EXP><![CDATA[$C$secondo messaggio dentro al gruppo]]></EXP>
 				</PAR>
-				<PAR Name="MsgStyle" />
-				<PAR Name="BtnLayout" />
+				<PAR Name="MsgStyle">
+					<EXP><![CDATA[$C$-1]]></EXP>
+				</PAR>
+				<PAR Name="BtnLayout">
+					<EXP><![CDATA[$C$-1]]></EXP>
+				</PAR>
 				<PAR Name="MsgCaption" />
 				<PAR Name="BaloonType" />
 				<PAR Name="BtnPressed">
@@ -89,8 +93,12 @@
 				<PAR Name="MsgText">
 					<EXP><![CDATA[$C$terzo messaggio del gruppo]]></EXP>
 				</PAR>
-				<PAR Name="MsgStyle" />
-				<PAR Name="BtnLayout" />
+				<PAR Name="MsgStyle">
+					<EXP><![CDATA[$C$-1]]></EXP>
+				</PAR>
+				<PAR Name="BtnLayout">
+					<EXP><![CDATA[$C$-1]]></EXP>
+				</PAR>
 				<PAR Name="MsgCaption" />
 				<PAR Name="BaloonType" />
 				<PAR Name="BtnPressed">
